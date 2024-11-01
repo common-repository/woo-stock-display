@@ -1,0 +1,10 @@
+#adminmenu .wp-menu-image img {
+    opacity: 1;
+    padding: 6px 0 0;
+}
+.donate_link{
+	color: green;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}

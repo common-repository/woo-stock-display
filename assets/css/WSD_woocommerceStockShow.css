@@ -1,0 +1,45 @@
+.out-of-stock {
+    margin-left: 10px;
+    padding-left: 0px;
+}
+/******* CSS for simple settings *******/
+.simple.stock_bar-wrap {
+    border-bottom: 1px dashed #ddd;
+    height: 25px;
+    width: 50%;
+}
+.simple.stock_bar-wrap:last-child {
+    border: medium none;
+}
+.simple.variation-name {
+    float: left;
+    min-width: 150px;
+}
+.simple.stock_bar {
+    background-color: transparent;
+    float: left;
+    height: 25px;
+    width: auto;
+}
+.simple.stock_fill {
+    color: #000;
+    height: 100%;
+    padding-left: 0;
+    text-align: left;
+}
+/******* CSS for Graphical settings *******/
+.graphical.variation-name {
+	
+}
+.graphical.stock_bar {
+	background-color: #ddd;
+	height: 25px;
+	width: 100%;
+}
+.graphical.stock_fill {
+	background-color: orange;
+	height: 100%;
+	padding-left: 10px;
+	color: #fff;
+	text-align: center;
+}
